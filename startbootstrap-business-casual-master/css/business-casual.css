@@ -25,7 +25,7 @@ p {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .site-heading {
@@ -79,7 +79,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #000000;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -88,7 +88,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -99,7 +99,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #000000;
   }
 }
 
@@ -144,7 +144,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(83, 216, 251, 0.9);
 }
 
 .cta .cta-inner {
@@ -224,7 +224,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(241, 246, 232, 0.9);
 }
 
 .text-primary {
@@ -240,8 +240,8 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #90BB4B;
+  border-color: #90BB4B;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
