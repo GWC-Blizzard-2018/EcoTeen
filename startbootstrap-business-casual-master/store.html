@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>EcoTeen</title>
+    <title>Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -50,14 +50,13 @@
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="products.html">Diys</a>
             </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="donate.html">Donate</a>
+
+
+    <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="store.html">Donate</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="tips.html">Everyday Tips</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="citations.html">Citations</a>
+              <a class="nav-link text-uppercase text-expanded" href="store.html">Everyday Tips</a>
             </li>
             <!--- DROPDOWN BELOW --->
             <li class="nav-item dropdown">
@@ -77,35 +76,27 @@
       </div>
     </nav>
 
-    <section class="page-section clearfix">
-      <div class="container">
-        <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Know its Worth</span>
-              <span class="section-heading-lower">Save the Earth</span>
-            </h2>
-            <p class="mb-3">Join us in our fight to save the earth! We hope that through education we can better our world for the children of tomorrow
-            </p>
-            <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Join Us Today!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="page-section cta">
+
+    <section class="page-section about-heading">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <div class="cta-inner text-center rounded">
-              <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">Our Purpose</span>
-                <span class="section-heading-lower">for the planet</span>
-              </h2>
-              <p class="mb-0">Our purpose for Ecoteen is to spread awareness towards environmental issues around the world. We've provided environmental topics to furthur educate others what is going on in our planet. With this information, we encourge you to take action with the everyday tips and fun DIYs provided on our website! Be apart of this act to better our earth, one step at a time. </p>
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/donate4.jpg" alt="">
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Donations to</span>
+                  <span class="section-heading-lower">Environmental Nonprofits</span>
+                </h2>
+                <p> <a href="https://membership.onlineaction.org/site/Donation2?df_id=18588&18588.donation=form1&addl_info=nav-button&conversion_pg=www.edf.org%2F" target="_blank">Environmental Defense Fund </p>
+                <p> <a href="https://secure.defenders.org/site/Donation2?df_id=11300&11300.donation=form1&s_src=3WDW1800XXXXX&s_subsrc=main-donate_072418" target="_blank">Defenders of Wildlife</p>
+                <p> <a href="https://www.greenpeace.org/usa/" target="_blank">Greenpeace</p>
+                <p> <a href="https://secure.humanesociety.org/site/Donation2?df_id=23356&23356.donation=form1&s_pDX=1&s_pFreq=m&s_pAmt=19&s_src=web_topnav_bd_monthly_lform_id93480558" target="_blank">Humane Society</p>
+                <p> <a href="https://donate.oceanconservancy.org/page/26376/donate/1?ea.tracking.id=18HPXGEAXX&gclid=Cj0KCQjwnNvaBRCmARIsAOfZq-2FZHszb1qQ4sAp_05iQZ9TLEzljZNNhhDXCaFpjmOE_4jsX8qHHR4aAuxOEALw_wcB" target="_blank">Ocean Conservancy</p>
+                <p> <a href="https://act.sierraclub.org/donate/rc_connect__campaign_designform?id=70131000001DlRtAAK&formcampaignid=70131000001LjZ2AAK&ddi=N16MOTF006" target="_blank">Sierra Club</p>
+                <p> <a href="https://www.wcs.org/" target="_blank">Wildlife Conservation Society</p>
+              </div>
             </div>
           </div>
         </div>
@@ -126,5 +117,10 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
+
+  <!-- Script to highlight the active date in the hours list -->
+  <script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+  </script>
 
 </html>
